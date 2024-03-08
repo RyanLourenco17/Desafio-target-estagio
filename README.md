@@ -25,8 +25,6 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 
 ### 3) Descubra a lógica e complete o próximo elemento:
 
-
-
 a) 1, 3, 5, 7, ___
 
 b) 2, 4, 8, 16, 32, 64, ____
@@ -43,8 +41,34 @@ f) 2,10, 12, 16, 17, 18, 19, ____
 
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
- 
+Resposta: 
+-1°Passo: Ligo o primeiro interruptor e espero alguns minutos.
 
+-2°Passo: Desligo o primeiro interruptor e ligo o segundo interruptor.
+
+-3°Passo: Entro na sala onde está a lâmpada.
+
+    1°Cenário: Se a lâmpada estiver acesa, então o segundo interruptor controla essa lâmpada.
+
+    2°Cenário: Se a lâmpada estiver apagada, mas estiver quente, então o primeiro interruptor controla essa lâmpada.
+
+    3°Cenário: Se a lâmpada estiver apagada e ainda estiver fria, então o terceiro interruptor controla essa lâmpada.
+
+-4°Passo: Deixo ligado interruptor que identifiquei como controlador na primeira visita.
+
+-5°Passo: Ligo o terceiro interruptor e espero alguns minutos.
+
+-6°Passo: Desligo o terceiro interruptor e ligo o primeiro interruptor.
+
+-7°Passo: Entro na próxima sala onde está a lâmpada.
+
+    1°Cenário: Se a lâmpada estiver ligada, então o primeiro interruptor controla essa lâmpada.
+
+    2°Cenário: Se a lâmpada estiver desligada, mas estiver quente, então o terceiro interruptor controla essa lâmpada.
+
+    3°Cenário: Se a lâmpada estiver desligada e ainda estiver fria, então o segundo interruptor controla essa lâmpada.
+
+        
 ### 5) Escreva um programa que inverta os caracteres de um string.
 
 
